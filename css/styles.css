@@ -8,9 +8,23 @@ body {
 }
 
 nav {
-  margin-top: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: 75%;
+  background-color: black
 }
 
 .main-content {
   text-align: center;
+}
+
+.flex-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.flex-list li a {
+  text-decoration: none;
+  color: aliceblue;
 }
