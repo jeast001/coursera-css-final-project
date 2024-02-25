@@ -11,7 +11,12 @@ nav {
   padding: 10px;
   display: inline-block;
   width: 75%;
-  background-color: black
+  background-color: black;
+}
+
+.title {
+  text-align: center;
+  padding: 40px;
 }
 
 .main-content {
