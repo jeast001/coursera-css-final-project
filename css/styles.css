@@ -7,6 +7,30 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.skip-content {
+  text-align: center;
+}
+
+.skip-content a {
+  text-decoration: none;
+}
+
+.skip-focus-offset {
+  position: absolute;
+  left: -50%;
+  transform: translateY(-100%);
+}
+
+.skip-focus-offset:focus {
+  position: relative;
+  left: 0%;
+  transform: translateY(50%);
+}
+
+.skip-focus-offset {
+  transition: transform 0.9s;
+}
+
 nav {
   padding: 10px;
   display: inline-block;
