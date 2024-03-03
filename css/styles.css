@@ -67,3 +67,17 @@ nav {
   text-decoration: none;
   color: aliceblue;
 }
+
+.non-main-filler {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+}
+
+.non-main-filler p {
+  margin: 5%;
+  padding: 10px;
+}
