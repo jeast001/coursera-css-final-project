@@ -43,6 +43,16 @@ nav {
   padding: 40px;
 }
 
+.title h1 {
+  font-size: 400%;
+}
+
+.title h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 130%;
+}
+
 .main-content {
   text-align: center;
 }
